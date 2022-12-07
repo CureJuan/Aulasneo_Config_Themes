@@ -1,0 +1,171 @@
+@import "../../scss/base/variables";
+
+
+.btn_camb {
+  color: black;
+  border: none;
+  height: 40px;
+  width: 145px;
+  background-color: transparent;
+}
+
+.btn_alert {
+  padding: 0px;
+  border-radius: 100px;
+  width: 220px;
+  min-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffc300;
+  border: 1px solid #ffc300;
+  font-family: "Quicksand";
+  font-size: 15px;
+}
+
+.btn_alert:hover {
+  background-color: #ffd71c;
+  border: 1px solid #ffd71c;
+}
+
+.btn_save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+.btn_guardar{
+    background-color: #26791b;
+    color: white;
+    font-weight: 700;
+    margin-right: 6px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+.btn_guardar:hover{
+  background-color: #3daa2f;
+}
+
+.btn_deshacer {
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.btn_deshacer:hover{
+  background-color: rgb(218, 68, 68);
+}
+
+.conf {
+  margin-top: 20%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.is-open {
+  display: flex;
+}
+
+.modal-container {
+  position: relative;
+  padding: 1rem;
+  min-width: 320px;
+  max-width: 480px;
+  min-height: 200px;
+  max-height: 600px;
+  overflow-y: auto;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+button.modal-close {
+  font-weight: bold;
+  color: rgb(102, 2, 2);
+  border: none;
+  border-radius: 25%;
+  height: auto;
+  width: auto;
+  background-color: transparent;
+}
+
+button.modal-close:hover {
+  color: red;
+}
+
+.area {
+  color: rgb(0, 0, 0);
+  resize: none;
+  font-family: inherit;
+  box-sizing: border-box;
+  background-color: #dadadaa1;
+  border-radius: 0.25rem;
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input,
+text {
+  box-sizing: border-box;
+  color: rgb(31, 31, 29);
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  outline: 0;
+  display: inline-block;
+  width: 70%;
+  font-size: 1rem;
+  background-color: #dadadaa1;
+}
+
+.enviar {
+  padding: 0rem;
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  background-color: #26791b;
+  border: none;
+  justify-content: center;
+}
+
+.enviar:hover {
+  background-color: #0d5304dc;
+  color: rgb(139, 231, 63);
+}
