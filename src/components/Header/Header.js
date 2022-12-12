@@ -1,7 +1,8 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import Modals from "../Formulario/Modals";
+import Modals from "../FormSubsc/Modals";
+import ModalsLogin from "../Login/ModalsLogin.js";
 import Logo from '../Imagenes/logo.png';
 
 const Header = () => {
@@ -87,17 +88,18 @@ const Header = () => {
           &#9776; &nbsp; TEMAS &nbsp;
         </button>
 
-        <button className="btn_buscar">
+        {/* <button className="btn_buscar">
           <FiSearch className="lupa" />
           &nbsp; BUSCAR{" "}
-        </button>
+        </button> */}
         <h1>
           <Link to="/" title="Ir a la página principal" className="logo_header">
           <img className="logo-head" src={Logo}/>
           </Link>{" "}
         </h1>
-        <Modals />
-        <button className="btn_ingresar">INGRESAR</button>
+       
+        <ModalsLogin />
+       
       </div>
       <div className="sub_menu">
         <p>Soluciones de elearning</p>
