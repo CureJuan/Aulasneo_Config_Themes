@@ -5,10 +5,10 @@ import { Footer } from "../Footer/Footer";
 import Box from "../Box";
 import BtnSave from "../Alert/BtnSave";
 
-const ThemeWarm = () => {
+const ThemeWarm = ({signOut, user}) => {
   return (
     <>
-      <Header />
+      <Header signOut={signOut} user={user}/>
       <Box title={"Theme Warm"} />
 
       <BtnSave />

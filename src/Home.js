@@ -26,14 +26,15 @@ const Articles = [
   }
 ];
 
-function Home() {
+function Home({signOut, user}) {
   const articles = Articles;
 
   return (
     <div>
-      <Header />
+      <Header signOut={signOut} user={user} />
+      
       <Carrousel />
-      <Box title={"Aulasneo Configure Temas"} />
+      <Box title={"Aulasneo Configuración de Temas"} />
       <div>
         <Row>
           {articles.map((article) => (

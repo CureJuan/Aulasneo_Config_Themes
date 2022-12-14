@@ -1,11 +1,9 @@
 import React from "react";
-import { FiSearch } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import Modals from "../FormSubsc/Modals";
-import ModalsLogin from "../Login/ModalsLogin.js";
 import Logo from '../Imagenes/logo.png';
 
-const Header = () => {
+const Header = ({signOut, user}) => {
+
   function openNav() {
     document.getElementById("mySidepanel").style.width = "250px";
   }
@@ -33,7 +31,7 @@ const Header = () => {
               className="logo_menu"
               onClick={() => closeNav()}
             >
-              Temas
+              MENU
             </Link>
             <hr />
             <li>
@@ -42,7 +40,7 @@ const Header = () => {
                 className="link__item"
                 onClick={() => closeNav()}
               >
-                Configuracion General
+                Configuración General
               </Link>
             </li>
             <li>
@@ -85,20 +83,15 @@ const Header = () => {
         </div>
 
         <button className="openbtn" onClick={() => openNav()}>
-          &#9776; &nbsp; TEMAS &nbsp;
+          &#9776; &nbsp; MENU &nbsp;
         </button>
 
-        {/* <button className="btn_buscar">
-          <FiSearch className="lupa" />
-          &nbsp; BUSCAR{" "}
-        </button> */}
         <h1>
           <Link to="/" title="Ir a la página principal" className="logo_header">
           <img className="logo-head" src={Logo}/>
           </Link>{" "}
         </h1>
-       
-        <ModalsLogin />
+        <button className="btn_ingresar" onClick={signOut}>SALIR</button>
        
       </div>
       <div className="sub_menu">

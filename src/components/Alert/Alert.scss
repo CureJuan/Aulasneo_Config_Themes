@@ -145,8 +145,8 @@ text {
   margin-right: 1rem;
   margin-bottom: 1rem;
   outline: 0;
-  display: inline-block;
-  width: 70%;
+  display: inline;
+  width: 30%;
   font-size: 1rem;
   background-color: #dadadaa1;
 }
@@ -168,4 +168,26 @@ text {
 .enviar:hover {
   background-color: #0d5304dc;
   color: rgb(139, 231, 63);
+}
+
+.setLogo{
+  display:flex
+}
+.setLogo2{
+  display: grid;
+  justify-items: stretch;
+  align-content: space-evenly;
+  padding: 10%
+}
+.imgfile2 {
+  width: 100%;
+  box-sizing: border-box;
+    color: #1f1f1d;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    outline: 0;
+    display: inline;
+    font-size: 1rem;
 }
