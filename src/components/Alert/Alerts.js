@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Alert from "./Alert";
 import { useModal } from "../../hooks/useModal";
 
-
 const Alerts = () => {
 
   const [isOpenForm, OpenForm, closeForm] = useModal(false);
@@ -23,7 +22,7 @@ const Alerts = () => {
   return (
     <div className='btn_alert'>
       <button className="btn_camb" onClick={OpenForm}>
-        Confirma Cambios
+        Guardar Cambios
       </button>
       <Alert isOpen={isOpenForm} closeModal={closeForm}>
       <div className='btns'>

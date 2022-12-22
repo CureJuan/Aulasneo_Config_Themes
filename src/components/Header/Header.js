@@ -91,6 +91,7 @@ const Header = ({signOut, user}) => {
           <img className="logo-head" src={Logo}/>
           </Link>{" "}
         </h1>
+         
         <button className="btn_ingresar" onClick={signOut}>SALIR</button>
        
       </div>

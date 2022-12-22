@@ -1,7 +1,7 @@
 @import "../../scss/base/variables";
 
 
-.btn_camb {
+.btn_send {
   color: black;
   border: none;
   height: 40px;
@@ -9,7 +9,7 @@
   background-color: transparent;
 }
 
-.btn_alert {
+.btn_alert_send {
   padding: 0px;
   border-radius: 100px;
   width: 220px;
@@ -23,24 +23,24 @@
   font-size: 15px;
 }
 
-.btn_alert:hover {
+.btn_alert_send:hover {
   background-color: #04b313;
 }
 
-.btn_save {
+.btn_send {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.btns {
+.btns_sends {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20%;
 }
 
-.btn_guardar {
+.btn_save_send {
   background-color: #26791b;
   color: white;
   font-weight: 700;
@@ -50,11 +50,11 @@
   padding: 7px;
 }
 
-.btn_guardar:hover {
+.btn_save_send:hover {
   background-color: #3daa2f;
 }
 
-.btn_deshacer {
+.btn_break_send {
   background-color: brown;
   color: white;
   font-weight: 700;
@@ -63,12 +63,11 @@
   padding: 7px;
 }
 
-.btn_deshacer:hover {
+.btn_break_send:hover {
   background-color: rgb(218, 68, 68);
 }
 
 .conf {
-  margin-top: 20%;
   text-align: center;
   font-weight: 800;
   font-size: 18px;
@@ -219,7 +218,18 @@ text {
   background-color: #0377a5;
   text-align: left;
   padding: 5px;
+  margin-bottom: 5px;
 }
 h5 {
   text-decoration:underline
+}
+.title_alert {
+  text-align: center;
+  font-size: 40px;
+}
+#container_background{
+  width: auto;
+}
+#content_wrapper_background{
+  width: auto;
 }

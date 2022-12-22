@@ -32,7 +32,6 @@ function Home({signOut, user}) {
   return (
     <div>
       <Header signOut={signOut} user={user} />
-      
       <Carrousel />
       <Box title={"Aulasneo Configuración de Temas"} />
       <div>
