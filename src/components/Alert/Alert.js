@@ -11,8 +11,7 @@ const Alert = ({ children, isOpen, closeModal }) => {
         </button>
         <h2 className="h2_form">Confirmación</h2>
       <hr />
-        <p className="conf" >Estas seguro de realizar los cambios</p>
-
+        <p className="conf">Estas seguro de realizar los cambios</p>
          {children}
       </div>
     </article>

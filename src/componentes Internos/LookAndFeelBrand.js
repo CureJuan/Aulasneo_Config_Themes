@@ -1,36 +1,63 @@
 import React from "react";
+import BasicConfig from "./BasicConfig";
 import Brand from "./Brand";
+import FooterConfig from "./FooterConfig";
+import ThemesConfig from "./ThemesConfig";
+import SendConfig from "./SendConfig";
 import "./styles.scss";
 
 const LookAndFeelBrand = () => {
 
   return (
     <>
-
       <div className="tabs">
         <div className="tab-container">
+       
+        <div id="tab2" className="tab">
+            <a href="#tab2">2. Dashboad</a>
+            <div className="tab-content">
+              <h2>Banner del Dashboad</h2>
+              <hr/>
+              <BasicConfig />
+            </div>
+          </div>
+
           <div id="tab3" className="tab">
-            <a href="#tab3">Footer</a>
+            <a href="#tab3">3. Footer</a>
             <div className="tab-content">
-              <h2>Footer</h2>
-              <p>Lorem ipsum ...</p>
+              <h2>Pie de Página</h2>
+              <hr/>
+              <FooterConfig />
             </div>
           </div>
-          <div id="tab2" className="tab">
-            <a href="#tab2">Header</a>
-            <div className="tab-content">
-              <h2>Header</h2>
-              <p>Lorem ipsum ...</p>
-            </div>
-          </div>
+
           <div id="tab1" className="tab">
-            <a href="#tab1">Brand</a>
+            <a href="#tab1">1. Marca</a>
             <div className="tab-content">
-              <h2>Look and Feel - Brand</h2>
+              <h2>Marca y Logos</h2>
               <hr/>
               <Brand />
             </div>
           </div>
+
+          <div id="tab4" className="tab">
+            <a href="#tab4">4. Temas</a>
+            <div className="tab-content">
+              <h2>Selección de Tema</h2>
+              <hr/>
+              <ThemesConfig />
+            </div>
+          </div>
+
+          <div id="tab5" className="tab">
+            <a href="#tab5">5. Lanzar</a>
+            <div className="tab-content">
+              <h2>Lanzar sitio</h2>
+              <hr/>
+              <SendConfig />
+            </div>
+          </div>
+
         </div>
       </div>
     </>

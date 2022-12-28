@@ -180,6 +180,7 @@ text {
   display: grid;
   justify-items: stretch;
   align-content: space-evenly;
+  margin-left: 20px;
 }
 
 .setLogo3 {
@@ -206,9 +207,6 @@ text {
   color: #1f1f1d;
   border-radius: 0.25rem;
   padding: 0.75rem;
-  margin-right: 5;
-  margin-bottom: 5;
-  outline: 5;
   display: inline;
   font-size: 1rem;
 }
@@ -220,9 +218,7 @@ text {
   padding: 5px;
   margin-bottom: 5px;
 }
-h5 {
-  text-decoration:underline
-}
+
 .title_alert {
   text-align: center;
   font-size: 40px;

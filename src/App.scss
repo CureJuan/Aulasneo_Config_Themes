@@ -383,3 +383,23 @@ code {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+.col-md {
+  border: 1px solid grey;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.card-title-h4 {
+  font-style: $font-style !important;
+}
+
+.font-secondary {
+  font-style: $font-style !important;
+  font-size: 17px;
+    color: #181818;
+    font-style: normal;
+    padding-left: 2%;
+    font-weight: 600;
+}
