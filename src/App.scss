@@ -6,10 +6,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-hr {
-  margin-bottom: 22px;
-}
-
 main {
   display: grid;
   grid-template-areas:
@@ -282,7 +278,18 @@ code {
   font-size: 30px;
   font-weight: bold;
   padding-top: 10px;
-  padding-left: 15px;
+  padding-left: 15px;  
+  padding-right: 25px;
+  color: black;
+}
+
+.boxcenter{
+  display: flex;
+  align-items: baseline;
+  color:rgb(105, 10, 10);
+  font-family: "Quicksand";
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .font-secondary {
@@ -398,8 +405,22 @@ code {
 .font-secondary {
   font-style: $font-style !important;
   font-size: 17px;
-    color: #181818;
-    font-style: normal;
-    padding-left: 2%;
-    font-weight: 600;
+  color: #181818;
+  font-style: normal;
+  padding-left: 2%;
+  font-weight: 600;
+}
+.table-sites{
+  margin: 2% !important;
+  width: -webkit-fill-available;
+}
+
+thead {
+  text-align: center;
+  color: white;
+  background: #00538c;
+}
+.sub{
+  margin-left: 2%;
+  color:#00538c
 }

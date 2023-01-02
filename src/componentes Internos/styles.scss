@@ -27,7 +27,7 @@
     font-family: sans-serif;
     line-height: 1.2;
   }
-  h2, p {
+  h2 {
     margin: 0;
   } 
   a {
@@ -133,4 +133,23 @@
 
 .preview-src{
   padding-bottom: 10%;
+}
+
+.cont-form{
+  background: steelblue;
+  padding: 2%;
+  border-radius: 15px;
+  border: var(--tabs-border-size) solid var(--tabs-border-color);
+}
+.form-data {
+  display: grid;
+}
+.form-input{
+  width: 100%;
+}
+.btn-form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }

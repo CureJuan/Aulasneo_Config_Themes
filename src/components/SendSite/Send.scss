@@ -170,6 +170,24 @@ text {
   color: rgb(139, 231, 63);
 }
 
+.limpiar:hover {
+  background-color: #b40505dc;
+  color: rgb(231, 111, 63);
+}
+.limpiar {
+  padding: 0rem;
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  background-color:#f01b1b ;
+  border: none;
+  justify-content: center;
+}
+
 .setLogo {
   display: flex;
   justify-content: space-around;

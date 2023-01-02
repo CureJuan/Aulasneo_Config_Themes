@@ -36,11 +36,11 @@ const Header = ({signOut, user}) => {
             <hr />
             <li>
               <Link
-                to="/general"
+                to="/sites"
                 className="link__item"
                 onClick={() => closeNav()}
               >
-                Configuración General
+                Mis Sitios
               </Link>
             </li>
             <li>

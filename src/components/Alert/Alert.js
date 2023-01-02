@@ -2,6 +2,7 @@ import React from "react";
 import "./Alert.scss";
 
 const Alert = ({ children, isOpen, closeModal }) => {
+
   const handleModalContainerClick = (e) => e.stopPropagation();
   return (
     <article className={`modal ${isOpen && "is-open"}`} onClick={closeModal}>

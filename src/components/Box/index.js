@@ -7,7 +7,6 @@ const Box = ({ title }) => {
       {title && (
         <>
           <h2 className={`font-primary`}>{title}</h2>
-          <hr />
         </>
       )}
     </div>

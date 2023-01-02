@@ -15,9 +15,9 @@ export const Footer = () => {
           <ul className="footer-links">
             <li>
               <Link
-                to="/general"
+                to="/sites"
               >
-                Configuracion General   /
+                Mis Sitios   /
               </Link>
             </li>
             <li>
